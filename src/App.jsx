@@ -7,6 +7,7 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Skills from './Skills';
+import { useEffect } from 'react';
 
 function Header() {
   const location = useLocation();
@@ -43,7 +44,6 @@ function Header() {
 }
 
 function App() {
-/*   // Add this useEffect to your existing App component
   useEffect(() => {
     const setAppHeight = () => {
       const vh = window.innerHeight * 0.01;
@@ -54,7 +54,7 @@ function App() {
     window.addEventListener('resize', setAppHeight);
 
     return () => window.removeEventListener('resize', setAppHeight);
-  }, []); */
+  }, []); 
 
   return (
     <Router>

@@ -54,6 +54,9 @@ body {
   justify-content: space-between; /* Space elements so that footer is pushed to the bottom */
 }
 
+.container {
+  height: calc(var(--vh, 1vh) * 100);
+}
 a {
   font-size: 18px;
   font-weight: 700;

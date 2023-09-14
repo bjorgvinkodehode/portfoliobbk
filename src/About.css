@@ -4,8 +4,8 @@
   align-items: center;
   color: var(--clr-orange);
   background-color: var(--clr-darkbrown);
-  border-radius: 10px; /* Smaller border-radius for mobile */
-  width: 90%; /* Full width on mobile */
+  border-radius: 10px;
+  width: 90%;
   margin: auto;
   height: 60vh;
   margin-top: 1rem;

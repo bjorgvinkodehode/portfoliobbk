@@ -17,7 +17,7 @@
   right: 0;
   display: flex;
   justify-content: center;
-  padding-bottom: 3rem;
+  padding-bottom: 3%;
   z-index: 1000;
 }
 
@@ -32,9 +32,10 @@
   margin: 0 0.5rem;
   border: none;
   cursor: pointer;
-  background-color: transparent;
-  color: var(--clr-darkbrown);
-  opacity: 0.5;
+  background-color: var(--clr-darkbrown);
+  color: var(--clr-orange);
+  opacity: 1;
+  border-radius: 50px;
 }
 
 .page-switcher button.active,
