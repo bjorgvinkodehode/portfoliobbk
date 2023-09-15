@@ -5,8 +5,8 @@
   --clr-darkbrown: #210606;
   --clr-orange: #e57a31;
   --clr-darkerorange: #963618;
-  --clr-darkviolet: #5d1c94;
-  --clr-violet: #f50af5;
+  --clr-greenblue: #608963;
+  --clr-lightgreen: #95d59a;
   --clr-white: rgb(207, 207, 207);
   height: 100%;
 }
@@ -20,6 +20,7 @@
 html {
   height: 100%;
 }
+
 body,
 p,
 a,

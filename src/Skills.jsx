@@ -8,7 +8,7 @@ import {
   faFigma,
   faWindows,
 } from '@fortawesome/free-brands-svg-icons';
-import { faFileCode, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
+import { faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 import './Skills.css';
 function Skills() {
   return (
@@ -17,11 +17,10 @@ function Skills() {
       <FontAwesomeIcon icon={faCss3Alt} className="icon" />
       <FontAwesomeIcon icon={faJsSquare} className="icon" />
       <FontAwesomeIcon icon={faReact} className="icon" />
-      <FontAwesomeIcon icon={faFileCode} className="icon" /> {/* Placeholder for TypeScript */}
       <a href="https://github.com/bjorgvinkodehode" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub}/></a>
       <FontAwesomeIcon icon={faFigma} className="icon" />
-      <FontAwesomeIcon icon={faCodeBranch} className="icon" /> {/* Placeholder for Git */}
+      <FontAwesomeIcon icon={faCodeBranch} className="icon" /> 
       <FontAwesomeIcon icon={faWindows} className="icon" />
     </footer>
   );
