@@ -23,8 +23,10 @@ function About() {
             time. I&apos;m also thoughtful and helpful, always willing to collaborate
             and share my skills and knowledge.
           </p>
+          
           <a href="https://github.com/bjorgvinkodehode" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub} className="social-icon" /></a>
+                    
         </section>
           
   );
