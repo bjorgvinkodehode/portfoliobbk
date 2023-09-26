@@ -2,7 +2,7 @@
   flex-shrink: 0;
   padding: 0.4rem;
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   white-space: nowrap;
   width: 100%;
   text-align: center;
@@ -14,7 +14,7 @@
 }
 
 .card-description {
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 .page-switcher {
@@ -58,18 +58,18 @@
   transition: all 0.3s ease-in-out;
   background-color: var(--clr-darkerorange);
   border-radius: 15px;
-  width: 330px;
-  height: 600px;
+  width: 400px;
+  height: 760px;
   margin-right: auto;
   margin-left: auto;
 }
 .card-image {
-  width: 330px;
-  height: 450px;
+  width: 400px;
+  height: 550px;
 }
 
 .card:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
   z-index: 1;
 }
 
@@ -116,10 +116,10 @@
   }
 
   .card-title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .card-description {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -134,11 +134,15 @@
     font-size: 1rem;
   }
   .card-description {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
   .card {
-    width: 330px;
+    width: 500px;
+    height: 800px;
+  }
+  .card-image {
+    width: 500px;
     height: 600px;
   }
   .card:hover {
@@ -157,13 +161,17 @@
     gap: 2rem;
   }
   .card {
-    width: 330px;
+    width: 500px;
+    height: 800px;
+  }
+  .card-image {
+    width: 500px;
     height: 600px;
   }
   .card-title {
     font-size: 1rem;
   }
   .card-description {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 }
