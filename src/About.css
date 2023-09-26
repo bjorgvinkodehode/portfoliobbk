@@ -11,6 +11,15 @@
   margin-top: 1rem;
 }
 
+.aboutmelinks {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-direction: row;
+}
+.linkto {
+  font-size: 1rem;
+}
 .aboutText {
   width: 90%;
   text-align: left;

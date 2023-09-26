@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 import './about.css';
+
 function About() {
   return (
         <section className="about">
@@ -28,8 +30,18 @@ function About() {
           where I can bring my unique blend of skills to create effective and user-friendly applications.
           </p>
 
+          <div className='aboutmelinks'>
+          <p className='linkto'>Link to CV</p>
+          <a href="https://docs.google.com/document/d/17RGGkvyBaGdUt7equ8gVh_pRMPhnUbS8fkk2VYMlkQg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faLink} className= "social-icon" /></a>
+
+          <p className='linkto'>Link to GitHub</p>
           <a href="https://github.com/bjorgvinkodehode" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub} className="social-icon" /></a>
+            </div>
+                    
+                    
+                    
                     
         </section>
           
