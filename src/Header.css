@@ -19,6 +19,7 @@ nav a {
   color: inherit;
   padding: 10px;
   border-radius: 10px;
+  font-size: 25px;
 }
 
 nav a:hover {
@@ -30,7 +31,7 @@ nav a:hover {
 
 .Welcome {
   font-weight: 200;
-  font-size: 50px;
+  font-size: 80px;
   color: var(--clr-orange);
   font-family: "Monoton", cursive;
   -webkit-text-stroke-width: 1.5px;
@@ -52,11 +53,12 @@ nav a:hover {
   nav a {
     padding: 5px;
     border-radius: 5px;
+    font-size: 20px;
   }
 
   .Welcome {
     padding: 20px;
-    font-size: 24px;
+    font-size: 40px;
     -webkit-text-stroke-width: 1px;
   }
 }
@@ -72,7 +74,7 @@ nav a:hover {
   }
 
   .Welcome {
-    font-size: 48px;
+    font-size: 80px;
     -webkit-text-stroke-width: 2.5px;
   }
 }

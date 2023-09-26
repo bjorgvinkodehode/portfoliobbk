@@ -11,7 +11,7 @@ const MultiPageComponent = () => {
     
     useEffect(() => {
         const handleResize = () => {
-            const cardWidth = 340; 
+            const cardWidth = 330; 
             const gap = 8;
             const padding = 35.2; 
             const gridWidth = document.querySelector('.project-grid')?.offsetWidth - (2 * padding);
@@ -32,21 +32,21 @@ const MultiPageComponent = () => {
 
     const projects = [
         {
-            title: "Parallax",
+            title:"Parallax",
             link: "https://bjorgvinkodehode.github.io/Parallax/",
-            imageUrl: "assets/Parallax.jpg",
+            imageUrl: "assets/Parallax.png",
             description: "This was the first website we created",
             githubLink: "https://github.com/bjorgvinkodehode/Parallax"
         },
         {
-            title: "Pluto",
+            title:"Pluto",
             link: "https://bjorgvinkodehode.github.io/Pluto/",
-            imageUrl: "assets/pluto.jpg",
+            imageUrl: "assets/pluto.png",
             description: "First bigger project, and i was really happy when i delivered this",
             githubLink: "https://github.com/bjorgvinkodehode/Pluto"
         },
         {
-            title: "Neptune",
+            title:"Neptune",
             link: "https://bjorgvinkodehode.github.io/Neptune/",
             imageUrl: "assets/Neptune.jpg",
             description: "Also the first bigger project, i could not decide what to do so i created two, this one is broken by design",
@@ -55,21 +55,21 @@ const MultiPageComponent = () => {
         {
             title:"Life",
             link: "https://bjorgvinkodehode.github.io/GameOfLife/",
-            imageUrl: "assets/GameOfLife.jpg",
+            imageUrl: "assets/GameOfLife.png",
             description: "The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.",
             githubLink: "https://github.com/bjorgvinkodehode/GameOfLife"
         },
         {
-            title: "Calculator",
+            title:"Calculator",
             link: "https://bjorgvinkodehode.github.io/Calculator2/",
-            imageUrl: "assets/Calculator.jpg",
+            imageUrl: "assets/Calculator.png",
             description: "The summer project was to create this calculator. ",
             githubLink: "https://github.com/bjorgvinkodehode/Calculator2"
         },
         {
-            title: "What To Watch",
+            title:"What to Watch",
             link: "https://bjorgvinkodehode.github.io/What-to-watch/",
-            imageUrl: "assets/Whattowatch.jpg",
+            imageUrl: "assets/Whattowatch.png",
             description: "This site generates a random movie based on a genere using an API",
             githubLink: "https://github.com/bjorgvinkodehode/What-to-watch"
         },
