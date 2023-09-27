@@ -16,21 +16,22 @@
   align-items: center;
   gap: 0.4rem;
   flex-direction: row;
+  margin-bottom: 1rem;
 }
 .linkto {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .aboutText {
   width: 90%;
   text-align: left;
   margin-bottom: 1rem;
-  height: 60vh;
-  font-size: 1rem;
+  height: 65vh;
+  font-size: 1.1rem;
 }
 
 @media (min-width: 768px) {
   .about {
-    width: 950px;
+    width: 900px;
     height: 60vh;
     border-radius: 15px;
     margin: auto;
@@ -39,7 +40,7 @@
 
   .aboutText {
     font-weight: 100;
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 800px;
     height: 60vh;
   }

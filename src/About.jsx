@@ -7,29 +7,25 @@ function About() {
   return (
         <section className="about">
           <p className="aboutText">
-          I am a highly motivated and resourceful front-end developer with a background spanning 8 years in
-           system administration and technical support. This experience has provided me with a deep understanding
-            of servers, networks, databases, and security, making me uniquely equipped to develop front-end solutions
-             that are not only functional but also robust and secure.
-
-          </p>
-          <p className="aboutText">
-          I excel in HTML, CSS, JavaScript, React, and TypeScript, and I&apos;m always keen to learn and adopt new technologies.
-           My extensive experience in project and ticket management, combined with my commitment to delivering high-quality
-            work punctually, ensures that I can meet and exceed project goals while maintaining best practices.
-
-          </p>
-          <p className="aboutText">
-          But what truly sets me apart is my passion for creating beautiful, functional user experiences 
-          and my exceptional communication skills gained from years of client interaction in a support role.
-           I love collaborating with team members and clients alike, and I&apos;m always willing to share
-            my skills and expertise.
-          </p>
-          <p className="aboutText">
+          Before becoming a front-end developer, I worked as a system administrator/support specialist for 8 years. 
+          <br />
+          <br />
+          During that time, I gained valuable experience in managing servers, networks, databases, security, project & ticket management, backups, and troubleshooting various technical issues.
+          <br />
+          <br />
+          I also learned how to communicate effectively with clients and users, 
+          providing them with excellent customer service and support.
+          <br />
+          <br />
+          I love making and creating things that are functional and beautiful.
+          I&apos;m resourceful and punctual, always delivering high-quality work on time. 
+          I&apos;m also thoughtful and helpful,
+           always willing to collaborate and share my skills and knowledge.
+          <br />
+          <br />
           My primary focus and interest lie in working with JavaScript, HTML, CSS, React, and TypeScript, 
           where I can bring my unique blend of skills to create effective and user-friendly applications.
           </p>
-
           <div className='aboutmelinks'>
           <p className='linkto'>Link to CV</p>
           <a href="https://docs.google.com/document/d/17RGGkvyBaGdUt7equ8gVh_pRMPhnUbS8fkk2VYMlkQg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
