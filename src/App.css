@@ -49,10 +49,10 @@ body {
   flex-direction: column;
 }
 .container {
-  height: 100vh; /* Take up full viewport height */
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Space elements so that footer is pushed to the bottom */
+  justify-content: space-between;
 }
 
 .container {
