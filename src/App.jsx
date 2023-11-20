@@ -25,11 +25,11 @@ function Header() {
       break;
     default:
       title = 'Welcome';
-      break;ð
+      break;
   }
 
   return (
-    
+
     <header className="header-grid">
       <nav>
         <ul>
