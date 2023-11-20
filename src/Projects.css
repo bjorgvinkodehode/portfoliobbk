@@ -57,26 +57,16 @@
   transition: all 0.3s ease-in-out;
   background-color: var(--clr-darkerorange);
   border-radius: 15px;
-<<<<<<< HEAD
-  width: 400px;
-  height: 500px;
-=======
   width: 330px;
   height: 580px;
->>>>>>> b67cef4985a9e92df8c6c9bc7ab698ead6a79430
   margin-right: auto;
   margin-left: auto;
 }
 .card-image {
-<<<<<<< HEAD
-  width: 300px;
-  height: 450px;
-=======
   width: 330px;
   height: 450px;
   width: 100%;
   transition: transform 0.1s ease-in-out;
->>>>>>> b67cef4985a9e92df8c6c9bc7ab698ead6a79430
 }
 
 .card:hover {

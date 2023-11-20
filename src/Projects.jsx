@@ -32,25 +32,18 @@ const MultiPageComponent = () => {
 
     const projects = [
         {
-            title:"Parallax",
-            link: "https://bjorgvinkodehode.github.io/Parallax/",
-            imageUrl: "assets/Parallax.png",
-            description: "This was the first website we created",
-            githubLink: "https://github.com/bjorgvinkodehode/Parallax"
+            title:"Blockbuster",
+            link: "https://bjorgvinkodehode.github.io/Blockbuster/",
+            imageUrl: "assets/Blockbuster.png",
+            description: "This is my latest website and it is still in development, its all about movies",
+            githubLink: "https://github.com/bjorgvinkodehode/Blockbuster"
         },
         {
-            title:"Pluto",
-            link: "https://bjorgvinkodehode.github.io/Pluto/",
-            imageUrl: "assets/pluto.png",
-            description: "First bigger project, and i was really happy when i delivered this",
-            githubLink: "https://github.com/bjorgvinkodehode/Pluto"
-        },
-        {
-            title:"Neptune",
-            link: "https://bjorgvinkodehode.github.io/Neptune/",
-            imageUrl: "assets/Neptune.png",
-            description: "Also the first bigger project, i could not decide what to do so i created two, this one is broken by design",
-            githubLink: "https://github.com/bjorgvinkodehode/Neptune"
+            title:"What to Watch",
+            link: "https://bjorgvinkodehode.github.io/What-to-watch/",
+            imageUrl: "assets/Whattowatch.png",
+            description: "This site generates a random movie based on a genere using an API",
+            githubLink: "https://github.com/bjorgvinkodehode/What-to-watch"
         },
         {
             title:"Life",
@@ -60,6 +53,13 @@ const MultiPageComponent = () => {
             githubLink: "https://github.com/bjorgvinkodehode/GameOfLife"
         },
         {
+            title:"Pluto",
+            link: "https://bjorgvinkodehode.github.io/Pluto/",
+            imageUrl: "assets/pluto.png",
+            description: "First bigger project, and i was really happy when i delivered this",
+            githubLink: "https://github.com/bjorgvinkodehode/Pluto"
+        },
+        {
             title:"Calculator",
             link: "https://bjorgvinkodehode.github.io/Calculator2/",
             imageUrl: "assets/Calculator.png",
@@ -67,12 +67,22 @@ const MultiPageComponent = () => {
             githubLink: "https://github.com/bjorgvinkodehode/Calculator2"
         },
         {
-            title:"What to Watch",
-            link: "https://bjorgvinkodehode.github.io/What-to-watch/",
-            imageUrl: "assets/Whattowatch.png",
-            description: "This site generates a random movie based on a genere using an API",
-            githubLink: "https://github.com/bjorgvinkodehode/What-to-watch"
+            title:"Parallax",
+            link: "https://bjorgvinkodehode.github.io/Parallax/",
+            imageUrl: "assets/Parallax.png",
+            description: "This was the first website we created",
+            githubLink: "https://github.com/bjorgvinkodehode/Parallax"
         },
+        {
+            title:"Neptune",
+            link: "https://bjorgvinkodehode.github.io/Neptune/",
+            imageUrl: "assets/Neptune.png",
+            description: "Also the first bigger project, i could not decide what to do so i created two, this one is broken by design",
+            githubLink: "https://github.com/bjorgvinkodehode/Neptune"
+        },
+        
+       
+       
 
     ];
 
