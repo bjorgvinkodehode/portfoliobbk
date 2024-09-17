@@ -28,7 +28,7 @@ function About() {
           </p>
           <div className='aboutmelinks'>
           <p className='linkto'>Link to CV</p>
-          <a href="https://drive.google.com/file/d/1FE0PwkrThaNxND0ydu_XOar3ZmBoEO_n/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1uHDRM14AVF-koNdart_P7mJ7z-q4XNkV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faLink} className= "social-icon" /></a>
 
           <p className='linkto'>Link to GitHub</p>
